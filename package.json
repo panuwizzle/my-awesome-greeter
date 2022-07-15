@@ -1,6 +1,6 @@
 {
   "name": "moo-awesome-greeter",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Tutorial follow caki0915/my-awesome-greeter.git",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
