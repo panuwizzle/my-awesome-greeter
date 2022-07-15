@@ -1,8 +1,9 @@
 {
   "name": "my-awesome-greeter",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Tutorial follow caki0915/my-awesome-greeter.git",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "files": [
     "lib/**/*"
   ],
@@ -17,9 +18,13 @@
     "version": "npm run format && git add -A src",
     "postversion": "git push && git push --tags"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["Hello", "Greeter"],
+  "author": "Moo",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/panuwizzle/my-awesome-greeter"
+  },
   "devDependencies": {
     "@types/jest": "^28.1.5",
     "@typescript-eslint/eslint-plugin": "^5.30.6",
