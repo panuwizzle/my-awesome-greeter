@@ -1,6 +1,6 @@
 {
   "name": "moo-awesome-greeter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Tutorial follow caki0915/my-awesome-greeter.git",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -9,7 +9,7 @@
   ],
   "scripts": {
     "build": "tsc",
-    "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
+    "format": "prettier --write \"src/**/*.ts\"",
     "lint": "eslint",
     "test": "jest --config jestconfig.json",
     "prepare": "npm run build",
@@ -18,7 +18,10 @@
     "version": "npm run format && git add -A src",
     "postversion": "git push && git push --tags"
   },
-  "keywords": ["Hello", "Greeter"],
+  "keywords": [
+    "Hello",
+    "Greeter"
+  ],
   "author": "Moo",
   "license": "ISC",
   "repository": {
